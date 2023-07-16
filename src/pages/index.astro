@@ -1,14 +1,15 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import { site } from '~/config';
+import Layout from '~/layouts/Layout.astro';
 ---
 
-<Layout title="astro-cube">
+<Layout title={site.name}>
   <main>
     <article class="region prose wrapper hero">
-      <h1>astro-cube</h1>
+      <h1>{site.name}</h1>
 
       <h2>
-        a tiny <a href="https://astro.build/">Astro</a> starter template, with <a
+        a cosmic <a href="https://astro.build/">Astro</a> starter template, with <a
           href="https://cube.fyi/">CUBE CSS</a
         >
       </h2>
@@ -55,7 +56,7 @@ import Layout from '../layouts/Layout.astro';
     </article>
 
     <footer class="region prose wrapper">
-      See <a href="https://github.com/williamhzo/astro-cube">source code</a>,
+      See <a href="https://github.com/advanced-astro/cosmo-cube">source code</a>,
       contributions are welcome! <span role="img" aria-label="waving hand emoji"
         >👋</span
       >

@@ -1,6 +1,6 @@
-![]('/../public/images/og-image.png)
+# 🧊 [COSMO-CUBE](https://cosmo-cube.vercel.app)
 
-# [ASTRO-CUBE](https://astro-cube.vercel.app) 🧊
+![screenshort]('/../assets/images/og-image.png)
 
 a tiny, almost-unopinionated [Astro](https://astro.build/) starter for your next blog, documentation, personal/marketing website, and more.
 
@@ -25,13 +25,13 @@ most styles are for demo purposes and to explain the underlying philosophy: "Be 
 ### clone this repo
 
 ```bash
-git clone https://github.com/williamhzo/astro-cube.git
+git clone https://github.com/advanced-astro/cosmo-cube.git
 ```
 
 ### instal dependencies
 
 ```bash
-cd astro-cube
+cd cosmo-cube
 ```
 
 ```bash
@@ -100,3 +100,9 @@ Lene made an amazing [Eleventy](https://www.11ty.dev/) starter based on CUBE CSS
 her starter greatly inspired me to build one for Astro (it will be a separate one from this minimal one).
 
 - [Eleventy Excellent](https://github.com/madrilene/eleventy-excellent)
+
+### \*\*[William Hermozo](https://williamhzo.me/)
+
+William made [Astro-Cube](https://astro-cube.vercel.app/) a tiny, almost-unopinionated Astro starter for your next blog, documentation, personal/marketing website, and more.
+
+his work formed the foundation for me to fork/create an opinionated and supercharged Astro starter template.
