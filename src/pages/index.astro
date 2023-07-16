@@ -1,20 +1,13 @@
 ---
-import { site } from '~/config';
+import { link, site } from '~/config';
 import Layout from '~/layouts/Layout.astro';
+import Header from '~/components/Header.astro';
+import Footer from '~/components/Footer.astro';
 ---
 
 <Layout title={site.name}>
   <main>
-    <article class="region prose wrapper hero">
-      <h1>{site.name}</h1>
-
-      <h2>
-        a cosmic <a href="https://astro.build/">Astro</a> starter template, with <a
-          href="https://cube.fyi/">CUBE CSS</a
-        >
-      </h2>
-    </article>
-
+    <Header />
     <article class="region prose wrapper">
       <ul role="list" class="grid features">
         <li class="flow">
@@ -36,17 +29,16 @@ import Layout from '~/layouts/Layout.astro';
         <li class="flow">
           <h3>robust</h3>
           <p>
-            Based on <a href="https://buildexcellentwebsit.es/"
-              >buildexcellentwebsit.es</a
-            > philosophy: let the browser do the heavy lifting rather than "micromanage"
-            it, as <a href="https://andy-bell.co.uk/">the author</a> puts it.
+            Based on <a href={link.build}>buildexcellentwebsit.es</a> philosophy:
+            let the browser do the heavy lifting rather than "micromanage" it,
+            as <a href={link.andybell}>the author</a> puts it.
           </p>
         </li>
 
         <li class="flow">
           <h3>fluid</h3>
           <p>
-            Spacings and font sizes are <a href="https://utopia.fyi/"
+            Spacings and font sizes are <a href={link.utopia}
               ><code>clamp()</code> based</a
             >, they adapt to the viewport's size instead of arbitrary
             breakpoints — looks good on <em>all devices</em>.
@@ -54,12 +46,6 @@ import Layout from '~/layouts/Layout.astro';
         </li>
       </ul>
     </article>
-
-    <footer class="region prose wrapper">
-      See <a href="https://github.com/advanced-astro/cosmo-cube">source code</a>,
-      contributions are welcome! <span role="img" aria-label="waving hand emoji"
-        >👋</span
-      >
-    </footer>
+    <Footer />
   </main>
 </Layout>
