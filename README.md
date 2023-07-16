@@ -1,6 +1,6 @@
 # 🧊 [COSMO-CUBE](https://cosmo-cube.vercel.app)
 
-![screenshort]('/../assets/images/og-image.png)
+![screenshort](https://github.com/advanced-astro/cosmo-cube/blob/main/src/assets/images/og-image.png)
 
 a tiny, almost-unopinionated [Astro](https://astro.build/) starter for your next blog, documentation, personal/marketing website, and more.
 
@@ -16,7 +16,7 @@ most styles are for demo purposes and to explain the underlying philosophy: "Be 
 - **fluid and responsive**: it looks great no matter the device size
   - [Every Layout](https://every-layout.dev/) examples for layout elements
   - [Utopia](https://utopia.fyi/) for fluid `clamp()`-based font sizes and spacing
-- **lightweight**: 💯 [lighthouse score](https://developer.chrome.com/en/docs/lighthouse/performance/performance-scoring/) across the board — not surprising considering the size of the project, but worth mentioning
+- **lightweight**: 💯 [lighthouse score](https://pagespeed.web.dev/analysis/https-cosmo-cube-vercel-app/hyl36ga17o) across the board — not surprising considering the size of the project, but worth mentioning
 - **dark-mode ready**: implement your own theme switcher if you're into that sort of thing, all you have to do is toggle the `data-theme` attribute on the body
 - **SEO** ready: basic SEO meta-tags are set-up, with `sitemap`s automatically generated at build time
 
@@ -24,36 +24,33 @@ most styles are for demo purposes and to explain the underlying philosophy: "Be 
 
 ### clone this repo
 
-```bash
+```sh
 git clone https://github.com/advanced-astro/cosmo-cube.git
 ```
 
 ### instal dependencies
 
-```bash
+```sh
 cd cosmo-cube
-```
-
-```bash
-npm i
+pnpm i
 ```
 
 ### spin up local dev server
 
-```bash
-npm run dev
+```sh
+pnpm dev
 ```
 
 ### build to `./dist/`
 
-```bash
-npm run build
+```sh
+pnpm build
 ```
 
 ### preview production build
 
-```bash
-npm run preview
+```sh
+pnpm preview
 ```
 
 ### ...or use the template directly ➡️ "Use this template" > "Create a new repository"
@@ -101,7 +98,7 @@ her starter greatly inspired me to build one for Astro (it will be a separate on
 
 - [Eleventy Excellent](https://github.com/madrilene/eleventy-excellent)
 
-### \*\*[William Hermozo](https://williamhzo.me/)
+### **[William Hermozo](https://williamhzo.me/)**
 
 William made [Astro-Cube](https://astro-cube.vercel.app/) a tiny, almost-unopinionated Astro starter for your next blog, documentation, personal/marketing website, and more.
 
