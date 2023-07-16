@@ -1,0 +1,19 @@
+# build output
+dist/
+.output/
+
+# dependencies
+node_modules/
+
+# logs
+*.log*
+
+# lock files
+*lock.*
+
+# environment variables
+.env
+.env.production
+
+# macOS-specific files
+.DS_Store
