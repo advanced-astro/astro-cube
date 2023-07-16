@@ -16,7 +16,7 @@ body {
   flex-direction: column;
 }
 
-[data-theme='dark'] body {
+[data-theme="dark"] body {
   --bg-color: var(--color-base-dark);
   --fg-color: var(--color-base-light);
   --bg-color-subtle: var(--color-gray-subtle-dark);
@@ -104,7 +104,7 @@ svg {
   flex: none;
 }
 
-[role='list'] {
+[role="list"] {
   padding: 0;
 }
 
@@ -130,7 +130,7 @@ main:focus {
   outline-color: var(--fg-color);
 }
 
-main > ul[role='list'],
+main > ul[role="list"],
 header,
 section,
 article > *,
