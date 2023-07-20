@@ -72,7 +72,7 @@ greater minds than mine are behind the choices in this kit, i'd like to mention 
 
 along with contributors, for a great onboarding experience and a wholesome community.
 
-- [Astro Integrations]([https://](https://astro.build/integrations/))
+- [Astro Integrations](https://astro.build/integrations/)
   - [astro-compress](https://github.com/astro-community/astro-compress#readme)
   - [astro-compressor](https://github.com/sondr3/astro-compressor#readme)
   - [@astrojs/sitemap](https://docs.astro.build/en/guides/integrations-guide/sitemap/)
