@@ -6,6 +6,7 @@
   src:
     local(""),
     url("/fonts/SilkSerif-ExtraLight.woff2") format("woff2");
+    unicode-range: U+0020—007F; /* Basic Latin */
 }
 
 @font-face {
@@ -16,4 +17,5 @@
   src:
     local(""),
     url("/fonts/SilkSerif-Light.woff2") format("woff2");
+  unicode-range: U+0020—007F; /* Basic Latin */
 }

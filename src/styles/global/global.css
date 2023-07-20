@@ -9,7 +9,7 @@ body {
   font-size: var(--size-step-0);
   font-weight: var(--font-weight-base);
   line-height: var(--line-height-base);
-  background: var(--bg-color);
+
   color: var(--fg-color);
   letter-spacing: var(--tracking);
   display: flex;

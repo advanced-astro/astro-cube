@@ -3,7 +3,8 @@
 /* TL;DR: Components styles */
 
 .hero {
-  margin-block-start: var(--space-l-2xl);
+  margin-block-start: var(--space-l-1xl);
+  margin-block-end: 0;
 }
 
 .hero :is(h1, h2) {
