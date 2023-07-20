@@ -21,7 +21,7 @@ most styles are for demo purposes and to explain the underlying philosophy: "Be 
 ## 🚀 Getting Started
 
 [![Deploy to Netlify](src/assets/deploy-netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/advanced-astro/cosmo-cube)
-[![Deploy to Vercel](src/assets/deploy-vercel.svg)](https://vercel.com/new/clone?repository-url=https://github.com/advanced-astro/cosmo-cube&project-name=cosmo-cube&repository-name=cosmo-cube&demo-title=Cosmo-Cube%20-%20Astro%20Starter%20Template&demo-description=Astroship%20is%20a%20starter%20template%20for%20startups%2C%20marketing%20websites%20%26%20landing%20pages.%20Built%20with%20Astro%2C%20Cube%20CSS&demo-url=https%3A%2F%2Fcosmo-cube.vercel.app&demo-image=https%3A%2F%2Fgithub.com/advanced-astro/cosmo-cube/blob/main/src/assets/images/og-image.png)
+[![Deploy to Vercel](src/assets/deploy-vercel.svg)](https://vercel.com/new/clone?repository-url=https://github.com/advanced-astro/cosmo-cube&project-name=cosmo-cube&repository-name=cosmo-cube&demo-title=cosmo-cube&demo-description=Starter%20template%20built%20with%20Astro%2C%20Cube%20CSS&demo-url=https%3A%2F%2Fcosmo-cube.vercel.app&demo-image=https%3A%2F%2Fraw.githubusercontent.com/advanced-astro/cosmo-cube/main/src/assets/images/og-image.png)
 
 ## installation
 
