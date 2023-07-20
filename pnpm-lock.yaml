@@ -14,6 +14,9 @@ dependencies:
   astro-compress:
     specifier: ^1.1.49
     version: 1.1.49
+  astro-compressor:
+    specifier: ^0.4.0
+    version: 0.4.0
 
 devDependencies:
   prettier:
@@ -1035,6 +1038,10 @@ packages:
       sharp: 0.32.1
       svgo: 3.0.2
       terser: 5.18.2
+    dev: false
+
+  /astro-compressor@0.4.0:
+    resolution: {integrity: sha512-yw6wM+cjkdyAMc6HW2lrdinOxt64PwQuL5NCAe71cXF/5xjnyJhgg9nyyFE32oQtmtd5I/57Pyp/kPe9IfYAxg==}
     dev: false
 
   /astro@2.8.3:
